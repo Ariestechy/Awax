@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone hhttps://github.com/Ariestechy/meowwwww.git /Ajax
+  git clone hhttps://github.com/Ariestechy/meowwwww.git /x
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Ajax
